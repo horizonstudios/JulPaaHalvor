@@ -1,6 +1,17 @@
-#logo {
-	height:177px;
-	width:886px;
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
 }
 #logodiv {
 	margin-left:auto;
@@ -8,35 +19,29 @@
 	width:50%;
 	height:177px;
 }
-button {
-	width:20px;
-	height:15px;
+#logo {
+	height:177px;
+	width:886px;
 }
-canvas {
-	border:#666 1px solid;
+#navbar {
+	text-align:center;
 }
-div#container {height:500px;width:500px;}
-div.a {
-width: 50px;
-height:50px;
-background-color:#ffffff;
-position:fixed;
-top:100px;
-left:100px;
+#body {
+   padding:10px;
+   padding-bottom:60px;
 }
-div.b {
-width: 50px;
-height:50px;
- background-color:#ffffff;
-position:fixed;
-    top:10px;
-    left:10px;
+#counter {
+	text-align:center;
 }
-div.c {
-width: 50px;
-height:50px;
- background-color:#ffffff;
-position:fixed;
-    top:200px;
-    left:100px;
+#imgcounter {
+	width:400px;
+	height:135px;
 }
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;
+   background:#6cf;
+}
+ 
