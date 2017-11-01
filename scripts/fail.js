@@ -1,11 +1,11 @@
+window.onload = function() {
+    alert( "Loaded Moving Images 1" );
+};
 $(document).ready(function() {
-    animateDiv($('.a'));
+		animateDiv($('.a'));
         animateDiv($('.b'));
         animateDiv($('.c'));
-
-});
-
-function makeNewPosition($container) {
+		function makeNewPosition($container) {
 
     // Get viewport dimensions (remove the dimension of the div)
     var h = $container.height() - 50;
@@ -15,9 +15,7 @@ function makeNewPosition($container) {
     var nw = Math.floor(Math.random() * w);
 
     return [nh, nw];
-
 }
-
 function animateDiv($target) {
     var newq = makeNewPosition($target.parent());
     var oldq = $target.offset();
@@ -29,9 +27,7 @@ function animateDiv($target) {
     }, speed, function() {
         animateDiv($target);
     });
-
 };
-
 function calcSpeed(prev, next) {
 
     var x = Math.abs(prev[1] - next[1]);
@@ -44,5 +40,5 @@ function calcSpeed(prev, next) {
     var speed = Math.ceil(greatest / speedModifier);
 
     return speed;
-
 }
+});
