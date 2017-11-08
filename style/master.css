@@ -55,11 +55,17 @@ div#imagediv
        height:50px;
        position:fixed;
 }
-div#mobilepaycontainer
+
+#mpcontainer {
+	   display:inline-box;
+	   width: 100%;
+       height:200px;
+}
+div#mpcontainer
 	img.a {
-		height:400px;
-		width:300px;
-		margin-left:500px;
+		display:inline-box;
+		width: 150px;
+        height:200px;
 	}
 		
 #footer {
@@ -67,5 +73,6 @@ div#mobilepaycontainer
    width:100%;
    height:60px;
    background:#6cf;
+   
 }
  
