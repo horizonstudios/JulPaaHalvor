@@ -18,10 +18,12 @@ body {
 	margin-right:auto;
 	width:50%;
 	height:177px;
+	text-align:center;
 }
 #logo {
 	height:177px;
 	width:886px;
+	text-align:center;
 }
 #navbar {
 	text-align:center;
