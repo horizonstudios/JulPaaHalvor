@@ -13,6 +13,7 @@ body {
 #header {
    background:#ff0;
    padding:10px;
+   height:230px;
 }
 #logodiv {
 	margin-left:auto;
